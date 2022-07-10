@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import { fetchMoviesByID } from 'api/api';
 import MovieCard from 'components/movieCard/MovieCard';
 import ButtonGoBack from 'components/buttonGoBack/ButtonGoBack';
@@ -19,7 +19,7 @@ function MovieDetailsPage() {
     
     return (
         <div>
-            <Link to="/">Go back</Link>
+            {/* <Link to="/">Go back</Link> */}
             <ButtonGoBack/>
             {movie && <MovieCard movie={movie} />}
         </div>
