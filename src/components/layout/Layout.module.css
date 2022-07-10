@@ -1,0 +1,26 @@
+.header {
+    margin: 40px;
+}
+
+.main {
+  margin: 40px;
+}
+
+.link {
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+  }
+  
+  .link:hover,
+  .link:focus {
+    color: rgb(235, 28, 62);
+  }
+  
+  .activeLink {
+    color: rgb(235, 28, 62);
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+  }
