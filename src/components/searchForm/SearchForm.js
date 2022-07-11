@@ -17,7 +17,6 @@ function SearchForm({ onSubmit }) {
   // }, [currentQuery])
 
   const handleChangeInput = (e) => {
-    // const currentQuery = (searchParams.get("query") || "");
     let query = e.target.value;
     if (query) {
       setQuery(query.toLowerCase())
